@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	Folder-IMAP
+%define		pdir	Email
+%define		pnam	Folder-IMAP
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP Folders
 Summary(pl):	Email::Folder::IMAP - dostêp do folderów IMAP dla klasy Email::Folder
 Name:		perl-%{pdir}-%{pnam}
