@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Folder-IMAP
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP Folders
-Summary(pl):	Email::Folder::IMAP - dostêp do folderów IMAP dla klasy Email::Folder
+Summary(pl.UTF-8):   Email::Folder::IMAP - dostÄ™p do folderÃ³w IMAP dla klasy Email::Folder
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.02
 Release:	1
@@ -31,8 +31,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This software adds IMAP functionality to Email::Folder. Its interface
 is identical to the other Email::Folder::Reader subclasses.
 
-%description -l pl
-Ta klasa dodaje funkcjonalno¶æ IMAP do Email::Folder. Jej interfejs
+%description -l pl.UTF-8
+Ta klasa dodaje funkcjonalnoÅ›Ä‡ IMAP do Email::Folder. Jej interfejs
 jest taki sam, jak innych podklas Email::Folder::Reader.
 
 %prep
