@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Folder-IMAP
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP Folders
-Summary(pl.UTF-8):   Email::Folder::IMAP - dostęp do folderów IMAP dla klasy Email::Folder
+Summary(pl.UTF-8):	Email::Folder::IMAP - dostęp do folderów IMAP dla klasy Email::Folder
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.02
 Release:	1
