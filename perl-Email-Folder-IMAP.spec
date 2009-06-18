@@ -8,13 +8,13 @@
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP Folders
 Summary(pl.UTF-8):	Email::Folder::IMAP - dostęp do folderów IMAP dla klasy Email::Folder
 Name:		perl-%{pdir}-%{pnam}
-Version:	1.02
+Version:	1.102
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b39583aa7c031a0f9219ec3cbb40a5b7
+# Source0-md5:	4e85d317dced5ff659661d86e0743b39
 URL:		http://search.cpan.org/dist/Email-Folder-Type/
 %if %{with tests}
 BuildRequires:	perl-Email-Folder
