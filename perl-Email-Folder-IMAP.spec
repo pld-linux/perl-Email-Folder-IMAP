@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Email
 %define		pnam	Folder-IMAP
 Summary:	Email::Folder::IMAP - Email::Folder Access to IMAP Folders
